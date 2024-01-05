@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+huawei_smart_logger.egg-info/PKG-INFO
+huawei_smart_logger.egg-info/SOURCES.txt
+huawei_smart_logger.egg-info/dependency_links.txt
+huawei_smart_logger.egg-info/top_level.txt
+tests/test.py

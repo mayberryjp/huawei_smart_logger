@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "huawei_smart_logger"
+version = "1.0.0"
+authors = [
+  {name="JR Mayberry", email="mayberryjp@gmail.com"},
+]
+description = "API to extract data from Huawei Smart Logger 3000"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/mayberryjp/huawei_smart_logger"
+Issues = "https://github.com/mayberryjp/huawei_smart_logger/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]  # list of folders that contain the packages (["."] by default)
+include = ["huawei_smart_logger"]  # package names should match these glob patterns (["*"] by default)
+exclude = []  # exclude packages matching these glob patterns (empty by default)
+namespaces = false  # to disable scanning PEP 420 namespaces (true by default)
