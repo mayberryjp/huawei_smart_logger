@@ -23,3 +23,8 @@ test=Test()
 asyncio.run(test.main())
 
 ```
+
+You should see an output like this
+
+{"gridtied_active_power": "0.055", "gridtied_reactive_power": "0.332", "load_power": "1.070", "active_power": "1.015", "reactive_power": "-0.334", "todays_power_supply_from_grid": "0.00", "current_day_supply_from_grid": "5.47", "current_day_feedin_to_grid": "0.41", "current_day_consumption": "12.87", "total_power_supply_from_grid": "6.61", "total_supply_from_grid": "449.67", "total_feedin_to_grid": "555.87", "total_power_consumption": "1774.54", "pv_output_power": "2.855", "battery_chargedischarge_power": "1.840", "reactive_pv_power": "-0.334", "reactive_ess_power": "0.000", "soc": "97.0", "currentday_charge_capacity": "9.27", "currentday_discharge_capacity": "3.17", "total_charge": "819.04", "total_discharge": "811.73", "rated_ess_power": "0.000"}
+
